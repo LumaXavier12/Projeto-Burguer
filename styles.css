@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    display: flex;
+}
+
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.propaganda {
+    color: white;
+    font-size: 60px;
+    margin-left: 15px;
+    margin-top: 40px;
+    font-weight: 600;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    text-shadow: 2px 2px 8px #79cb15;
+}
+
+.container-buttons {
+    margin: 60px 0 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+button {
+    background-color: #79cb15;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 120px;
+}
+
+button:hover {
+    opacity: .8;
+}
+
+ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    gap: 30px;
+    margin-right: 30px;
+    margin-top: 60px;
+}
+
+li {
+    border: 2px solid #8133ff;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+img {
+    width: 100%;
+    border-radius: 5px;
+    min-height: 200px;
+}
+
+.chovendo-hamburguer {
+    display: flex;
+    width: 650px;
+    margin: 70px 20px 0 120px;
+}
+
+p {
+    color: white;
+}
+
+.item-price {
+    font-weight: bold;
+    color: #79cb15;
+}
